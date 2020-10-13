@@ -2,13 +2,13 @@ import time;
 from selenium import webdriver;
 
 #time to refresh page (seconds)
-Timer = 120
+Timer = 60
 
 #youtube link
-link = 'https://www.youtube.com/watch?v=hW_WFUs3hfQ'
+link = 'https://www.youtube.com/watch?v=TltKqcm998s'
 
 #number of views
-views = 20
+views = 10
 
 driver = webdriver.Chrome()
 driver.get(link)
